@@ -46,7 +46,7 @@ Pkg.add(url="https://github.com/Perro2110/Kermit.jl")
 using Kermit
 
 # Esempio di classificazione di un messaggio
-message = "Congratulazioni! Hai vinto un premio di 1000€. Clicca qui per riscuotere."
+message = "FREE GIFT waiting for you."
 result = Kermit.classify(message)
 println("Classificazione: $(result)")  # Dovrebbe restituire "Spam"
 ```
