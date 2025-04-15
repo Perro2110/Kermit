@@ -40,17 +40,6 @@ using Pkg
 Pkg.add(url="https://github.com/Perro2110/Kermit.jl")
 ```
 
-## 📝 Utilizzo base (WORK IN PROGRESS)
-
-```julia
-using Kermit
-
-# Esempio di classificazione di un messaggio
-message = "FREE GIFT waiting for you."
-result = Kermit.classify(message)
-println("Classificazione: $(result)")  # Dovrebbe restituire "Spam"
-```
-
 ## 👥 Contribuire
 
 Contributi e suggerimenti sono benvenuti!
