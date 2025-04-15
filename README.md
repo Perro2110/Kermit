@@ -30,6 +30,7 @@ Per eseguirli:
 using Pkg
 Pkg.activate(".")  # Attiva l'ambiente del progetto
 using Kermit
+include("src/Kermit.jl")
 ```
 
 ## 🔧 Installazione
