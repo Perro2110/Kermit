@@ -29,8 +29,8 @@ Per eseguirli:
 ```julia
 using Pkg
 Pkg.activate(".")  # Attiva l'ambiente del progetto
-using Kermit
 include("src/Kermit.jl")
+include("src/Piggy.jl")
 ```
 
 ## 🔧 Installazione
